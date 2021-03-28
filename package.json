@@ -1,0 +1,16 @@
+{
+  "name": "engo551_lab5",
+  "version": "1.0.0",
+  "description": "RLeaflet map with sdrawing and simplify function",
+  "main": "index.html",
+  "dependencies": {
+    "leaflet": "^1.7.1",
+    "leaflet-draw": "^1.0.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mikko Ramos",
+  "license": "ISC"
+}
