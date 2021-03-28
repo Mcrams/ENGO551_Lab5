@@ -10,30 +10,3 @@ body {
 #announcer {
   display: none;
 }
-
-.schoolIcon {
-  background-color: #00BFFF;
-  display: inline-block;
-  height: 20px;
-  width: 20px;
-  border-radius: 50%;
-  border: 1px solid black;
-}
-
-.hospitalIcon {
-  background-color: red;
-  display: inline-block;
-  height: 20px;
-  width: 20px;
-  border-radius: 50%;
-  border: 1px solid black;
-}
-
-.hospitalIconClicked {
-  background-color: yellow;
-  display: inline-block;
-  height: 20px;
-  width: 20px;
-  border-radius: 50%;
-  border: 1px solid black;
-}
