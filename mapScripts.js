@@ -59,7 +59,13 @@ map.on('draw:created', function(e) {
 
 //When the button is clicked, simplify the line
 document.getElementById('lineSimplify').addEventListener("click", function() {
-  simplified = turf.simplify(geoPolyLine);
+
+  let toleranceVal = document.getElementById("tolVal").value;
+  toleranceVal /= 1000;
+
+  console.log(toleranceVal);
+
+  simplified = turf.simplify(geoPolyLine, {tolerance: toleranceVal, highQuality: false});
   console.log(simplified);
   processed.addData(simplified);
 });

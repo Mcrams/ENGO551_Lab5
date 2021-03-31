@@ -34,6 +34,10 @@
         <h4>Polyline Simplification Demo</h4>
         <p>Draw a polyline using the draw menu on the upper left corner of the map, then click on the button below to create a simplified version using Turf.js </p>
 
+        <p><b>Specify simplification tolerance (higher values are more simplified):</b> </p>
+        <input type="range" id="tolVal" name="tolVal" min="0" max="500">
+        <div style="height:50px;width:10px;"></div>
+
         <input id="lineSimplify" class="btn btn-primary" type="button" value="Simplify Line">
         <input id="lineClear" class="btn btn-primary" type="button" value="Clear Lines">
 
