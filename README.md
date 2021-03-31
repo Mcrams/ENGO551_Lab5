@@ -1,6 +1,6 @@
 # ENGO 551 - Lab 5
 
-Polyline simplification demo using Turf.js and leaflet-draw library
+Polyline simplification demo using Turf.js, leaflet-draw, and Node
 
 ## Instructions
 1. Open the index.html file, and you're done!
@@ -16,3 +16,6 @@ JS file that configures leaflet and leaflet-draw from installed Node JS modules,
 
 ### styles.css
 CSS for site that controls the height of the Leaflet map (required).
+
+### package.json and package-lock.json
+NPM-specific files that handle the dependencies for the installed Leaflet and Leaflet-draw extensions
